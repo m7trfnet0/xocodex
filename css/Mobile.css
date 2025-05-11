@@ -1,0 +1,291 @@
+@charset "utf-8";
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+.center-text::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+:root {
+  --mainColor: #0057ff;
+  --sec-color: #1787e0;
+  --main-transition: 0.3s;
+  --sec-padding: 30px;
+  --sec-background: #f2f7ff;
+  --p-color: #777;
+  --p-line-height: 1.6;
+  --padding-top: 30px;
+  --padding-bottom: 30px;
+}
+html,
+body {
+  overflow-x: hidden !important;
+}
+.container,
+.landing-form .sec-container,
+.form-footer .sec-container,
+.sec-container {
+  width: 90%;
+  margin: 0px auto;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.high-header p {
+  font-size: 12px;
+}
+.landing-form .sec-container a {
+  margin-left: -7px;
+}
+.landing-form .sec-container h3 {
+  font-size: 1.6em;
+}
+.landing-form .sec-container .heading p {
+  font-size: 18px;
+}
+.big-form {
+  padding: 30px 20px;
+}
+.big-form-container {
+  flex-direction: column;
+}
+.big-form-container .form-left,
+.big-form-container .form-right {
+  width: 100%;
+}
+.big-form-container .phone-input select {
+  width: 25%;
+}
+.file-input-label {
+  padding: 8px 5px;
+  font-size: 15px;
+  justify-content: space-between;
+}
+.file-input-label .right-input {
+  gap: 4px;
+}
+.form-footer {
+  padding-bottom: var(--padding-bottom);
+}
+.form-footer .sec-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-footer .sec-container p {
+  text-align: center;
+}
+.nav ul,
+.nav .right {
+  display: none;
+}
+.nav .right-mob {
+  display: block !important;
+}
+/*Start Sidemenu*/
+.button-nav {
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 5px;
+  display: inline-block;
+  zoom: 1;
+  border-radius: 6px;
+}
+.header-top {
+  display: block;
+}
+
+.button-nav .line {
+  background: var(--mainColor);
+  height: 3px;
+  border-radius: 3px;
+}
+
+.button-nav .line:first-child {
+  display: flex;
+  width: 15px;
+  margin-left: 15px;
+  margin-bottom: 4px;
+}
+
+.button-nav .line:nth-child(2) {
+  display: block;
+  width: 30px;
+  margin-bottom: 4px;
+}
+
+.button-nav .line:last-child {
+  display: flex;
+  width: 15px;
+}
+
+.button-nav svg {
+  font-size: 18px;
+  display: flex;
+}
+
+.closed {
+  border-radius: 50%;
+}
+
+.header-top {
+  padding: 10px;
+  background: #fff;
+}
+
+.navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #fff;
+  z-index: 1001;
+  min-width: 240px;
+  overflow: auto;
+  box-shadow: -1px 2px 6px 1px #9e9e9e;
+}
+
+.navigation.open {
+  display: block;
+}
+
+.navigation-button {
+  padding: 10px;
+  text-align: right;
+}
+
+nav .navigation-list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  display: block !important;
+  text-align: center;
+}
+nav .navigation-list li {
+  margin-bottom: 5px;
+}
+nav .navigation-list li .lang {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+nav .navigation-list li .lang span {
+  font-size: 18px;
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+.navigation-list a svg {
+  color: var(--mainColor);
+  margin-right: 5px;
+}
+
+.navigation-list a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+}
+/*End Sidemenu*/
+/*Start Landing*/
+.landing .high-landing,
+.sky .container {
+  flex-direction: column-reverse;
+}
+.landing .left-content,
+.landing .right-img {
+  width: 100%;
+  margin-top: 5%;
+}
+.landing .right-img {
+  height: auto;
+}
+.landing .left-content h1 {
+  font-size: 1.6em;
+}
+
+.landing .left-content p {
+  font-size: 18px;
+}
+.landing .right-img img {
+  height: 100%;
+  width: 100%;
+}
+.landing .boxes {
+  gap: 0;
+}
+.landing .boxes .box {
+  padding: 0;
+}
+.break img,
+.sky .text,
+.sky .img,
+.form-sec .form-title {
+  width: 100%;
+}
+.sky .text {
+  text-align: center;
+}
+.center-text h2 {
+  font-size: 1.6em;
+}
+.center-text p,
+.center-text p.sec-p {
+  font-size: 20px;
+}
+.center-text ul {
+  overflow-y: scroll;
+  justify-content: start;
+}
+.sky .text h1 {
+  font-size: 2em;
+}
+.sky .text p {
+  font-size: 22px;
+}
+.sec-head,
+.form-sec .container {
+  flex-direction: column;
+  text-align: center;
+}
+.sec-head h2 {
+  font-size: 2em;
+  margin-bottom: 0;
+  width: 100%;
+}
+.sec-head p {
+  width: 100%;
+  font-size: 22px;
+}
+.form-title h3 {
+  text-align: center;
+  font-size: 2em;
+}
+.form-container {
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0;
+}
+footer {
+  padding-bottom: var(--padding-bottom);
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+footer .right-footer,
+footer {
+  flex-direction: column;
+}
+footer .right-footer .links {
+  gap: 20px;
+}
+footer .right-footer .social {
+  justify-content: center;
+} /*End Landing*/

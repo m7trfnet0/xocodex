@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XoCodex</title>
+    <!-- render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- the main css file -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="(min-width: 320px) and (max-width: 992px)"
+      href="css/Mobile.css"
+    />
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <script>
+    window.addEventListener("scroll", function () {
+      var navbar = document.getElementById("header");
+      if (window.pageYOffset > 0) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    });
+  </script>
+  <body>
+    <!-- Start High-Header -->
+    <div class="high-header">
+      <div class="container">
+        <p>
+          Get Ready for Something Amazing
+          <span>- Website Launching Soon!</span>
+        </p>
+      </div>
+    </div>
+    <!-- End High-Header -->
+    <!-- Start Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <h3 class="title">XOCODEX</h3>
+          <ul class="links">
+            <li class="blu"><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="right">
+            <div class="lang">
+              <img src="imgs/global-svgrepo-com.svg" alt="" />
+              <span>العربية</span>
+            </div>
+            <a href="Request quotation form.html" class="blu"
+              >Request quotation</a
+            >
+          </div>
+          <div class="sidemenu">
+            <div class="header-top">
+              <button class="button-nav">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </button>
+            </div>
+
+            <!-- navigation open -->
+            <div class="navigation" id="navigation-demo">
+              <nav>
+                <div class="navigation-button">
+                  <button class="button-nav closed">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <ul class="navigation-list">
+                  <li><h3 class="title">XOCODEX</h3></li>
+                  <li class="blu"><a href="#">Home</a></li>
+                  <li><a href="#service">Services</a></li>
+                  <li><a href="#products">Products</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li>
+                    <div class="lang">
+                      <img src="imgs/global-svgrepo-com.svg" alt="" />
+                      <span>العربية</span>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="Request quotation form.html" class="blu"
+                      >Request quotation</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- navigation close -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing">
+      <div class="container">
+        <div class="high-landing">
+          <div class="left-content">
+            <h1>
+              Maximize your potential with our
+              <strong class="blu"><u>user centered</u></strong> shopping
+              solutions
+            </h1>
+            <p>
+              Unlock your potential with our revolutionary e-commerce solutions.
+            </p>
+            <div class="bottom-lc">
+              <button class="btn">
+                <a href="Request quotation form.html">Let's Talk!</a>
+              </button>
+              <a href="#" class="u-link">Explore our products</a>
+            </div>
+          </div>
+          <div class="right-img">
+            <img src="imgs/1.png" alt="" />
+          </div>
+        </div>
+
+        <div class="boxes">
+          <div class="box">
+            <h2><u>Solutions</u></h2>
+            <p>
+              Offering solutions that set you apart from the competition and
+              bring you closer to your clients.
+            </p>
+          </div>
+          <div class="box">
+            <h2><u>Services</u></h2>
+            <p>
+              Maximize your business potential with user-centered design,
+              development, and tech services.
+            </p>
+          </div>
+          <div class="box">
+            <h2><u>Industries</u></h2>
+            <p>
+              Integrate technology into your operations to set a new standard in
+              your industry.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Landing -->
+    <div class="container break">
+      <img
+        src="imgs/zoomimagesmooth-metro-200x100-sloane-square-gloss1405424855_1.jpg"
+        alt=""
+      />
+    </div>
+    <div class="center-text">
+      <div class="container">
+        <h2><u class="blu">11+</u> Years of e-commerce excellence</h2>
+        <p>Our team's role in crafting leading platforms</p>
+        <ul>
+          <li><img src="imgs/Amazon_logo 1.png" alt="" /></li>
+          <li>
+            <img src="imgs/1ef71a1999492060c800bb1f3ff9550a 1.png" alt="" />
+          </li>
+          <li><img src="imgs/JumiaLogo_(14) 2.png" alt="" /></li>
+          <li><img src="imgs/Talabat_logo 1.png" alt="" /></li>
+          <li><img src="imgs/Souq-Logo-Vector 1.png" alt="" /></li>
+        </ul>
+        <div class="center-p sec-container">
+          <p class="sec-p">
+            We offer maximum project security and protection, including monthly
+            data audits, security testing, encryption, data recovery, account
+            safeguarding, and distinctive activation, along with a complimentary
+            full test.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Start Articles Section -->
+    <div class="services" id="service">
+      <div class="container">
+        <div class="box">
+          <h3>Online Stores</h3>
+          <p>
+            We offer comprehensive services for creating, designing, and
+            maintaining online stores that resonate with your brand and
+            captivate your customers.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Multi-Vendor Platform</h3>
+          <p>
+            Empower businesses with the ability to host multiple vendors on a
+            single platform designed to facilitate seamless operations, ensure
+            vendor satisfaction, and attract a wide range of products.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Delivery System</h3>
+          <p>
+            Our delivery system streamlines the process, from order management
+            to last-mile delivery, ensuring a smooth and reliable experience for
+            your customers.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Payment Solutions</h3>
+          <p>
+            A seamless payment experience is vital for your e-commerce success.
+            Our payment solutions microservice ensures secure, convenient
+            transactions.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Inventory Management</h3>
+          <p>
+            Our Inventory Management ensures real-time tracking, automated
+            replenishment, and supplier integration, guaranteeing stock
+            efficiency and customer satisfaction.
+          </p>
+        </div>
+        <div class="box">
+          <h3>CRM</h3>
+          <p>
+            Building strong relationships with your customers is key to
+            long-term success. Our CRM focuses on enhancing customer
+            interactions.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Analytics & Reporting</h3>
+          <p>
+            Data-driven decisions drive growth. Our Analytics and Reporting is
+            your key to unlocking business potential.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Mobile Commerce</h3>
+          <p>
+            Our mobile commerce integration ensures a seamless experience. We
+            focus on mobile app development and responsive design for
+            user-friendly on-the-go shopping.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Articles Section -->
+    <!-- Start Sky Section -->
+    <div class="sky">
+      <div class="container">
+        <div class="text">
+          <h1>
+            Get Your Online Store
+            <strong class="blu"><u>Up & Running!</u></strong>
+          </h1>
+          <p>Create your online store in 10 days – Start selling now!</p>
+          <button class="btn">
+            <a href="Request quotation form.html">Let's Talk!</a>
+          </button>
+        </div>
+        <div class="img">
+          <img src="imgs/Device.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Sky Section -->
+    <!-- Start Sky Experiment Section-->
+    <div class="exper" id="products">
+      <div class="container">
+        <div class="sec-head">
+          <h2>
+            Yes, and we have
+            <strong class="blu"><u>unique</u></strong> experience in,
+          </h2>
+          <p>
+            Explore our solutions, from strategic planning to innovative
+            marketing, and discover new possibilities for success.
+          </p>
+        </div>
+        <div class="exper-content">
+          <div class="box">
+            <img src="imgs/assets/icons/Web-development.svg" alt="" />
+            <h3>Web development</h3>
+            <p>
+              We prioritize a user-centered approach in our website design and
+              development services, customizing solutions to fit your daily
+              needs and delivering them promptly with the latest, efficient
+              software.
+            </p>
+            <a href="Request quotation form.html" class="u-link"
+              >Request quotation</a
+            >
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/mobile.svg" alt="" />
+            <h3>Mobile applications</h3>
+            <p>
+              Our mobile app service is your gateway to engaging with a broad
+              user spectrum across different operating systems, facilitating the
+              growth of your business.
+            </p>
+            <a href="Request quotation form.html" class="u-link"
+              >Request quotation</a
+            >
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/desktop.svg" alt="" />
+            <h3>Desktop applications</h3>
+            <p>
+              Our desktop application service is designed to meet the needs of
+              companies or commercial enterprises, providing efficient
+              management and organization solutions for businesses ensuring
+              customer satisfaction.
+            </p>
+            <a href="Request quotation form.html" class="u-link"
+              >Request quotation</a
+            >
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/security.svg" alt="" />
+            <h3>Security</h3>
+            <p>
+              We offer maximum project security and protection, including
+              monthly data audits, security testing, encryption, data recovery,
+              account safeguarding, and distinctive activation, along with a
+              complimentary full test.
+            </p>
+            <a href="Request quotation form.html" class="u-link"
+              >Request quotation</a
+            >
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/seo.svg" alt="" />
+            <h3>SEO</h3>
+            <p>
+              We're here to help you rise above the competition, reach new
+              heights in search engine rankings, and establish a lasting impact
+              in the digital realm. We optimize for success in the digital
+              world.
+            </p>
+            <a href="Request quotation form.html" class="u-link"
+              >Request quotation</a
+            >
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/graphic.png" alt="" />
+            <h3>Graphic design</h3>
+            <p>
+              Unlock your potential to outshine rivals, dominate search engine
+              rankings, and create a lasting digital legacy through our graphic
+              design expertise. We're experts at optimizing visuals for digital
+              success.
+            </p>
+            <a href="Request quotation form.html" class="u-link"
+              >Request quotation</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Sky Experiment Section-->
+    <!-- Start Sky Section -->
+    <div class="sky">
+      <div class="container">
+        <div class="text">
+          <h1>
+            Get Your Corporate Website in
+            <strong class="blu"><u> 7 days!</u></strong>
+          </h1>
+          <p>Create your corporate website in 7 Days – Start selling now!</p>
+          <button class="btn">
+            <a href="Request quotation form.html">Let's Talk!</a>
+          </button>
+        </div>
+        <div class="img">
+          <img src="imgs/Device2.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Sky Section -->
+    <!-- Start user-centric -->
+    <div class="products" id="products">
+      <div class="container">
+        <div class="sec-head">
+          <h2>
+            Crafting Exceptional
+            <strong class="blu"><u>User-Centric</u></strong> Products
+          </h2>
+          <p>
+            We specialize in crafting exceptional user-centric products,
+            prioritizing your needs and experiences.
+          </p>
+        </div>
+        <div class="user-content">
+          <div class="box">
+            <img src="imgs/assets/icons/delivereas.png" alt="" />
+            <h3>Delivereas.com</h3>
+            <p>
+              Your Marketplace Platform for Effortless, On-Time Deliveries.
+              We're your reliable partner for seamless logistics, ensuring
+              convenience with every delivery
+            </p>
+            <a href="#" class="u-link">Explore</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/master-cart.png" alt="" />
+            <h3>Master-cart</h3>
+            <p>
+              Your Marketplace Platform for Effortless, On-Time Deliveries.
+              We're your reliable partner for seamless logistics, ensuring
+              convenience with every delivery
+            </p>
+            <a href="#" class="u-link">Explore</a>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/whatsapp.png" alt="" />
+            <h3>Whatsapp Campaigns</h3>
+            <p>
+              Your Marketplace Platform for Effortless, On-Time Deliveries.
+              We're your reliable partner for seamless logistics, ensuring
+              convenience with every delivery
+            </p>
+            <a href="#" class="u-link">Explore</a>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/lms.png" alt="" />
+            <h3>LMS E-Learning</h3>
+            <p>
+              Your Marketplace Platform for Effortless, On-Time Deliveries.
+              We're your reliable partner for seamless logistics, ensuring
+              convenience with every delivery
+            </p>
+            <a href="#" class="u-link">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End user-centric -->
+    <!-- Start Form -->
+    <div class="form-sec">
+      <div class="container">
+        <div class="form-title">
+          <h3>
+            Let's Connect & Create
+            <strong class="blu"><u>Together!</u></strong>
+          </h3>
+        </div>
+        <div class="form-container">
+          <div class="form-left">
+            <input type="text" id="name" placeholder="Fullname" />
+            <input type="email" id="email" placeholder="Email adress" />
+            <input type="tel" id="mobile" placeholder="Phone number" />
+          </div>
+          <div class="form-right">
+            <textarea id="message" placeholder="Your message..."></textarea>
+            <button type="submit" class="btn">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Form -->
+    <!-- Start Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="left-footer">
+          <h3 class="title">XOCODEX</h3>
+          <p>© All copyrights reserved to xocodex.com © 2023</p>
+        </div>
+        <div class="right-footer">
+          <ul class="links">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Products</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/linkedin.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/tiktok.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request quotation form</title>
+    <!-- render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- the main css file -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="(min-width: 320px) and (max-width: 992px)"
+      href="css/Mobile.css"
+    />
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <script>
+    window.addEventListener("scroll", function () {
+      var navbar = document.getElementById("header");
+      if (window.pageYOffset > 0) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    });
+  </script>
+  <body style="background-color: #0057ff">
+    <!-- Start High-Header -->
+    <div class="high-header">
+      <div class="container">
+        <p>
+          Get Ready for Something Amazing
+          <span>- Website Launching Soon!</span>
+        </p>
+      </div>
+    </div>
+    <!-- End High-Header -->
+    <!-- Start Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <h3 class="title">XOCODEX</h3>
+          <div class="right right-mob">
+            <div class="lang">
+              <img src="imgs/global-svgrepo-com.svg" alt="" />
+              <span>العربية</span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing-form -->
+    <div class="landing-form">
+      <div class="sec-container">
+        <div class="heading">
+          <a href="index.html">
+            <img src="imgs/assets/icons/arrow-left-svgrepo-com.svg" alt="" />
+            Home
+          </a>
+          <h3>Request a quote</h3>
+          <p>Get a quote now and start your journey to excellence!</p>
+        </div>
+        <div class="big-form">
+          <div class="big-form-container">
+            <div class="form-left">
+              <div class="form-group">
+                <label for="fullname"
+                  >Full Name<span class="red">*</span></label
+                >
+                <input type="text" id="fullname" required />
+              </div>
+              <div class="form-group">
+                <label for="email"
+                  >Email Address<span class="red">*</span></label
+                >
+                <input type="email" id="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone"
+                  >Phone Number<span class="red">*</span></label
+                >
+                <div class="phone-input">
+                  <select id="phone-code" required>
+                    <option value="+971">+971</option>
+                    <option value="+20">
+                      <span
+                        ><img
+                          src="imgs/assets/icons/flag-for-flag-egypt-svgrepo-com.svg"
+                          alt="" /></span
+                      >+20
+                    </option>
+                    <option value="+966">
+                      <img
+                        src="imgs/assets/icons/flag-for-flag-saudi-arabia-svgrepo-com.svg"
+                        alt=""
+                      />+966
+                    </option>
+                    <!-- Add more options as needed -->
+                  </select>
+                  <input
+                    type="tel"
+                    id="phone-number"
+                    placeholder="000 - 000 - 0000"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="business"
+                  >Business Name<span class="red">*</span></label
+                >
+                <input type="text" id="business" required />
+              </div>
+              <div class="form-group">
+                <label for="industry">Industry<span class="red">*</span></label>
+                <input type="text" id="industry" required />
+              </div>
+            </div>
+            <div class="form-right">
+              <div class="form-group">
+                <label for="project-type"
+                  >Project Type<span class="red">*</span></label
+                >
+                <select id="project-type" required>
+                  <option value="">Choose From Here</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Mobile App Development">
+                    Mobile App Development
+                  </option>
+                  <option value="Design">Design</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="budget"
+                  >Estimate Budget <span class="opt">(Optional)</span></label
+                >
+                <input type="text" id="budget" />
+              </div>
+              <div class="form-group uploading">
+                <label for="upload"
+                  >Upload File <span class="opt">(Optional)</span></label
+                >
+                <div class="file-input-container">
+                  <input
+                    type="file"
+                    id="upload"
+                    class="file-input"
+                    accept=".pdf,.doc,.docx,.txt"
+                  />
+                  <div class="file-input-label">
+                    <div class="right-input">
+                      <img
+                        src="imgs/assets/icons/upload-minimalistic-svgrepo-com.svg"
+                        alt=""
+                        class="upload-img"
+                      />
+                      <span class="blu">Drag</span>file here or
+                      <span class="blu">Click</span>the button
+                    </div>
+                    <div class="left-input">
+                      <span class="upl blu">Upload</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="overview">Project Overview</label>
+                <textarea id="overview"></textarea>
+              </div>
+              <button type="submit" class="btn">Request a quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Landing-form -->
+    <!-- Start Footer -->
+    <div class="form-footer">
+      <div class="sec-container">
+        <h3 class="title">XOCODEX</h3>
+        <p>© All copyrights reserved to xocodex.com © 2023</p>
+        <div class="right-footer">
+          <ul class="social">
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/linkedin.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/tiktok.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
