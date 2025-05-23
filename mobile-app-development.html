@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XoCodex - Mobile App Development</title>
+    <!-- render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- the main css file -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="(min-width: 320px) and (max-width: 992px)"
+      href="css/Mobile.css"
+    />
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <script>
+    window.addEventListener("scroll", function () {
+      var navbar = document.getElementById("header");
+      if (window.pageYOffset > 0) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    });
+  </script>
+  <body>
+    <!-- Start High-Header -->
+    <div class="high-header">
+      <div class="container">
+        <p>
+          Get Ready for Something Amazing
+          <span>- Website Launching Soon!</span>
+        </p>
+      </div>
+    </div>
+    <!-- End High-Header -->
+    <!-- Start Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <h3 class="title">XOCODEX</h3>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li class="blu"><a href="services.html">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="right">
+            <div class="lang">
+              <img src="imgs/global-svgrepo-com.svg" alt="" />
+              <span>العربية</span>
+            </div>
+            <a href="Request quotation form.html" class="blu"
+              >Let's Talk!</a
+            >
+          </div>
+          <div class="sidemenu">
+            <div class="header-top">
+              <button class="button-nav">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </button>
+            </div>
+
+            <!-- navigation open -->
+            <div class="navigation" id="navigation-demo">
+              <nav>
+                <div class="navigation-button">
+                  <button class="button-nav closed">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <ul class="navigation-list">
+                  <li><h3 class="title">XOCODEX</h3></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li class="blu"><a href="services.html">Services</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li>
+                    <div class="lang">
+                      <img src="imgs/global-svgrepo-com.svg" alt="" />
+                      <span>العربية</span>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="Request quotation form.html" class="blu"
+                      >Let's Talk!</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- navigation close -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    
+    <!-- Start Service Banner -->
+    <div class="landing">
+      <div class="container">
+        <div class="high-landing">
+          <div class="left-content">
+            <h1>
+              Mobile App
+              <strong class="blu"><u>Development</u></strong>
+            </h1>
+            <p>
+              Transform your ideas into powerful, user-friendly mobile applications that engage your audience
+              and drive business growth. Our expert team creates exceptional mobile experiences across iOS and Android platforms.
+            </p>
+            <div class="buttons">
+              <button class="btn">
+                Request a Quote
+              </button>
+              <a href="#service-details" class="u-link">Learn more</a>
+            </div>
+          </div>
+          <div class="right-img">
+            <img src="imgs/mobile-app.png" alt="Mobile App Development" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Service Banner -->
+
+    <!-- Start Service Details -->
+    <div class="service" id="service-details">
+      <div class="container">
+        <div class="service-title">
+          <h2>
+            Our Mobile App Development <strong class="blu"><u>Services</u></strong>
+          </h2>
+          <p>
+            We deliver end-to-end mobile app development services tailored to your specific business needs.
+          </p>
+        </div>
+
+        <div class="exper-content">
+          <div class="box">
+            <img src="imgs/assets/icons/apple.svg" alt="" />
+            <h3>iOS Development</h3>
+            <p>
+              Native iOS app development for iPhone and iPad using Swift and SwiftUI.
+              Our apps leverage the latest iOS features and follow Apple's design guidelines for optimal user experience.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/android.svg" alt="" />
+            <h3>Android Development</h3>
+            <p>
+              Native Android app development using Kotlin and Jetpack Compose.
+              We build apps that work seamlessly across the diverse Android ecosystem, from phones to tablets.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/flutter.svg" alt="" />
+            <h3>Cross-Platform Development</h3>
+            <p>
+              Efficient cross-platform development using Flutter and React Native.
+              Get the best of both worlds: native-like performance with faster development time and cost savings.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/security.svg" alt="" />
+            <h3>App Maintenance & Support</h3>
+            <p>
+              Ongoing maintenance, updates, and support to keep your app running smoothly.
+              We ensure your app stays compatible with the latest OS versions and device capabilities.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Service Details -->
+
+    <!-- Start Development Process -->
+    <div class="process-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            Our Development <strong class="blu"><u>Process</u></strong>
+          </h2>
+          <p>
+            We follow a structured approach to mobile app development, ensuring quality at every step.
+          </p>
+        </div>
+
+        <div class="exper-content">
+          <div class="box">
+            <img src="imgs/assets/icons/planning.svg" alt="" />
+            <h3>1. Discovery & Planning</h3>
+            <p>We begin by understanding your business goals, target audience, and app requirements. This phase includes market research, competitor analysis, and defining the app's scope.</p>
+            <a href="Request quotation form.html" class="u-link">Start Here</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/graphic.png" alt="" />
+            <h3>2. UI/UX Design</h3>
+            <p>Our designers create wireframes and interactive prototypes to visualize the app's user interface and experience. We focus on creating intuitive, engaging designs that align with your brand.</p>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/mobile.svg" alt="" />
+            <h3>3. Development</h3>
+            <p>Our development team brings the designs to life, writing clean, efficient code. We use agile methodology to ensure flexibility and regular updates throughout the development process.</p>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/testing.svg" alt="" />
+            <h3>4. Testing & QA</h3>
+            <p>Rigorous testing across multiple devices and scenarios ensures your app is bug-free and performs optimally. We test for functionality, usability, performance, and security.</p>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/deployment.svg" alt="" />
+            <h3>5. Deployment & Launch</h3>
+            <p>We handle the app submission process to the App Store and Google Play Store, ensuring compliance with all platform guidelines and requirements.</p>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/support.svg" alt="" />
+            <h3>6. Post-Launch Support</h3>
+            <p>Our relationship continues after launch with ongoing maintenance, updates, and support to keep your app running smoothly and adapting to changing market needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Development Process -->
+
+    <!-- Start Technologies -->
+    <div class="technologies-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            Technologies We <strong class="blu"><u>Use</u></strong>
+          </h2>
+          <p>
+            We leverage the latest technologies and frameworks to build powerful, scalable mobile applications.
+          </p>
+        </div>
+
+        <div class="user-content">
+          <div class="box">
+            <img src="imgs/assets/icons/swift.svg" alt="Swift" />
+            <h3>Swift</h3>
+            <p>
+              Apple's modern programming language for iOS, macOS, watchOS, and tvOS. Swift is powerful, intuitive, and designed for safety.
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/kotlin.svg" alt="Kotlin" />
+            <h3>Kotlin</h3>
+            <p>
+              A modern programming language that makes developers happier. Kotlin is concise, safe, interoperable with Java, and offers many ways to reuse code.
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/flutter.svg" alt="Flutter" />
+            <h3>Flutter</h3>
+            <p>
+              Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/react.svg" alt="React Native" />
+            <h3>React Native</h3>
+            <p>
+              A framework for building native apps using React. It allows you to create mobile apps that can run on both Android and iOS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Technologies -->
+
+    <!-- Start Case Studies -->
+    <div class="case-studies">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            Our Success <strong class="blu"><u>Stories</u></strong>
+          </h2>
+          <p>
+            Explore some of our successful mobile app development projects.
+          </p>
+        </div>
+
+        <div class="user-content">
+          <div class="box">
+            <img src="imgs/assets/icons/ecommerce.svg" alt="E-commerce Mobile App" />
+            <h3>E-commerce Mobile App</h3>
+            <p>Developed a feature-rich e-commerce app for a leading retail brand, resulting in a 45% increase in mobile sales within 3 months of launch.</p>
+            <a href="#" class="u-link">View Case Study</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/fitness.svg" alt="Health & Fitness Tracker" />
+            <h3>Health & Fitness Tracker</h3>
+            <p>Created an innovative fitness tracking app with social features, achieving over 100,000 downloads in the first month and a 4.8-star rating.</p>
+            <a href="#" class="u-link">View Case Study</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/service.svg" alt="On-Demand Service App" />
+            <h3>On-Demand Service App</h3>
+            <p>Built a scalable on-demand service platform connecting service providers with customers, processing over 5,000 transactions daily.</p>
+            <a href="#" class="u-link">View Case Study</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Case Studies -->
+
+    <!-- Start Articles Section -->
+    <div class="services" id="service">
+      <div class="container">
+        <div class="box">
+          <h3>Native iOS Development</h3>
+          <p>
+            We specialize in creating high-performance iOS apps using Swift and SwiftUI that leverage the full potential of Apple's ecosystem and provide seamless user experiences.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Native Android Development</h3>
+          <p>
+            Our Android development team builds powerful, feature-rich applications using Kotlin and Jetpack Compose that work flawlessly across the diverse Android device landscape.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Cross-Platform Solutions</h3>
+          <p>
+            We offer cost-effective cross-platform development using Flutter and React Native, delivering native-like performance with faster time-to-market for both iOS and Android.
+          </p>
+        </div>
+        <div class="box">
+          <h3>UI/UX Design</h3>
+          <p>
+            Our mobile app designs focus on creating intuitive, engaging interfaces that delight users while adhering to platform-specific design guidelines and best practices.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Backend Integration</h3>
+          <p>
+            We develop robust backend systems and APIs that power your mobile applications, ensuring seamless data synchronization, user authentication, and secure cloud storage.
+          </p>
+        </div>
+        <div class="box">
+          <h3>App Store Optimization</h3>
+          <p>
+            We implement proven ASO strategies to improve your app's visibility in the App Store and Google Play Store, driving more organic downloads and user acquisition.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Maintenance & Support</h3>
+          <p>
+            Our ongoing maintenance services ensure your app stays compatible with the latest OS versions, security standards, and user expectations through regular updates.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Analytics Integration</h3>
+          <p>
+            We implement comprehensive analytics solutions that provide valuable insights into user behavior, app performance, and conversion metrics to drive continuous improvement.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Articles Section -->
+
+    <!-- Start FAQ Section -->
+    <div class="faq-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            Frequently Asked <strong class="blu"><u>Questions</u></strong>
+          </h2>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item">
+            <h3>How long does it take to develop a mobile app?</h3>
+            <p>The timeline varies depending on the complexity of the app. A simple app may take 2-3 months, while a complex app with advanced features could take 4-6 months or more. We'll provide a detailed timeline during the planning phase.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>How much does it cost to develop a mobile app?</h3>
+            <p>App development costs vary based on features, complexity, platforms, and design requirements. We provide transparent pricing based on your specific needs. Contact us for a detailed quote.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Should I build a native app or a cross-platform app?</h3>
+            <p>It depends on your specific needs. Native apps offer the best performance and access to platform-specific features but require separate development for iOS and Android. Cross-platform solutions like Flutter offer cost efficiency and faster development while maintaining good performance.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Do you provide app maintenance services?</h3>
+            <p>Yes, we offer comprehensive app maintenance and support services to ensure your app remains up-to-date, secure, and compatible with the latest OS versions and devices.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Will my app idea remain confidential?</h3>
+            <p>Absolutely. We sign NDAs (Non-Disclosure Agreements) before discussing your app idea in detail to ensure complete confidentiality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End FAQ Section -->
+
+    <!-- Start Form -->
+    <div class="form-sec">
+      <div class="container">
+        <div class="form-title">
+          <h3>
+            Ready to Build Your
+            <strong class="blu"><u>Mobile App?</u></strong>
+          </h3>
+        </div>
+        <div class="form-container">
+          <div class="form-left">
+            <input type="text" id="name" placeholder="Fullname" />
+            <input type="email" id="email" placeholder="Email adress" />
+            <input type="tel" id="mobile" placeholder="Phone number" />
+          </div>
+          <div class="form-right">
+            <textarea id="message" placeholder="Tell us about your project..."></textarea>
+            <button type="submit" class="btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Form -->
+
+    <!-- Start Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="left-footer">
+          <h3 class="title">XOCODEX</h3>
+          <p>© All copyrights reserved to xocodex.com © 2023</p>
+        </div>
+        <div class="right-footer">
+          <ul class="links">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Products</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/linkedin.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/tiktok.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

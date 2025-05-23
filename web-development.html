@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XoCodex - Web Development</title>
+    <!-- render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- the main css file -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="(min-width: 320px) and (max-width: 992px)"
+      href="css/Mobile.css"
+    />
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <script>
+    window.addEventListener("scroll", function () {
+      var navbar = document.getElementById("header");
+      if (window.pageYOffset > 0) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    });
+  </script>
+  <body>
+    <!-- Start High-Header -->
+    <div class="high-header">
+      <div class="container">
+        <p>
+          Get Ready for Something Amazing
+          <span>- Website Launching Soon!</span>
+        </p>
+      </div>
+    </div>
+    <!-- End High-Header -->
+    <!-- Start Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <h3 class="title">XOCODEX</h3>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li class="blu"><a href="services.html">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="right">
+            <div class="lang">
+              <img src="imgs/global-svgrepo-com.svg" alt="" />
+              <span>العربية</span>
+            </div>
+            <a href="Request quotation form.html" class="blu"
+              >Let's Talk!</a
+            >
+          </div>
+          <div class="sidemenu">
+            <div class="header-top">
+              <button class="button-nav">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </button>
+            </div>
+
+            <!-- navigation open -->
+            <div class="navigation" id="navigation-demo">
+              <nav>
+                <div class="navigation-button">
+                  <button class="button-nav closed">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1em"
+                      viewBox="0 0 384 512"
+                    >
+                      <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                <ul class="navigation-list">
+                  <li><h3 class="title">XOCODEX</h3></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li class="blu"><a href="services.html">Services</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li>
+                    <div class="lang">
+                      <img src="imgs/global-svgrepo-com.svg" alt="" />
+                      <span>العربية</span>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="Request quotation form.html" class="blu"
+                      >Let's Talk!</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- navigation close -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    
+    <!-- Start Service Banner -->
+    <div class="landing">
+      <div class="container">
+        <div class="high-landing">
+          <div class="left-content">
+            <h1>
+              Web
+              <strong class="blu"><u>Development</u></strong>
+            </h1>
+            <p>
+              Create stunning, responsive websites and web applications that elevate your brand and drive business growth.
+              Our expert team delivers custom web solutions that combine beautiful design with powerful functionality.
+            </p>
+            <div class="buttons">
+              <button class="btn">
+                Request a Quote
+              </button>
+              <a href="#service-details" class="u-link">Learn more</a>
+            </div>
+          </div>
+          <div class="right-img">
+            <img src="imgs/web-dev.png" alt="Web Development" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Service Banner -->
+
+    <!-- Start Service Details -->
+    <div class="service" id="service-details">
+      <div class="container">
+        <div class="service-title">
+          <h2>
+            Our Web Development <strong class="blu"><u>Services</u></strong>
+          </h2>
+          <p>
+            We offer comprehensive web development services to meet all your digital needs.
+          </p>
+        </div>
+
+        <div class="exper-content">
+          <div class="box">
+            <img src="imgs/assets/icons/Web-development.svg" alt="" />
+            <h3>Responsive Website Design</h3>
+            <p>
+              Custom, mobile-friendly websites that look great and function flawlessly on all devices.
+              We create visually appealing designs that reflect your brand identity and engage your audience.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/ecommerce.svg" alt="" />
+            <h3>E-commerce Development</h3>
+            <p>
+              Powerful online stores built on platforms like Shopify, WooCommerce, and Magento.
+              Complete with secure payment gateways, inventory management, and seamless checkout experiences.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/desktop.svg" alt="" />
+            <h3>Web Application Development</h3>
+            <p>
+              Custom web applications that automate processes, improve efficiency, and solve complex business challenges.
+              From CRMs to dashboards, we build scalable solutions tailored to your needs.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/cms.svg" alt="" />
+            <h3>CMS Development</h3>
+            <p>
+              Custom content management systems that make website updates easy and efficient.
+              We build on platforms like WordPress, Drupal, and custom solutions for complete control over your content.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Service Details -->
+
+    <!-- Start Expertise Grid -->
+    <div class="exper" id="expertise">
+      <div class="container">
+        <div class="sec-head">
+          <h2>
+            Yes, and we have <strong class="blu"><u>unique</u></strong> experience in,
+          </h2>
+          <p>
+            Our web development expertise spans across various industries and technologies, delivering tailored solutions for every business need.
+          </p>
+        </div>
+        
+        <div class="exper-content">
+          <div class="box">
+            <img src="imgs/assets/icons/ecommerce.svg" alt="" />
+            <h3>E-commerce Websites</h3>
+            <p>
+              Custom online stores with seamless checkout processes, secure payment gateways, and inventory management systems that drive sales and enhance customer experience.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+          
+          <div class="box">
+            <img src="imgs/assets/icons/corporate.svg" alt="" />
+            <h3>Corporate Websites</h3>
+            <p>
+              Professional business websites that establish your brand identity, showcase your services, and convert visitors into leads with strategic call-to-actions.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+          
+          <div class="box">
+            <img src="imgs/assets/icons/cms.svg" alt="" />
+            <h3>Content Management Systems</h3>
+            <p>
+              User-friendly CMS solutions that empower you to update and manage your website content without technical knowledge, saving time and resources.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+          
+          <div class="box">
+            <img src="imgs/assets/icons/portal.svg" alt="" />
+            <h3>Web Portals & Dashboards</h3>
+            <p>
+              Custom web portals and interactive dashboards that streamline operations, visualize data, and provide valuable insights for informed decision-making.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+          
+          <div class="box">
+            <img src="imgs/assets/icons/api.svg" alt="" />
+            <h3>API Development & Integration</h3>
+            <p>
+              Seamless integration of third-party services and custom API development to extend your website's functionality and connect with other business systems.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+          
+          <div class="box">
+            <img src="imgs/assets/icons/seo.svg" alt="" />
+            <h3>SEO-Optimized Websites</h3>
+            <p>
+              Websites built with search engine optimization in mind, featuring clean code, fast loading times, and SEO best practices to improve your online visibility.
+            </p>
+            <a href="Request quotation form.html" class="u-link">Request quotation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Expertise Grid -->
+    
+    <!-- Start Technologies -->
+    <div class="technologies-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            Technologies We <strong class="blu"><u>Use</u></strong>
+          </h2>
+          <p>
+            We leverage the latest web technologies and frameworks to build powerful, scalable web solutions.
+          </p>
+        </div>
+
+        <div class="user-content">
+          <div class="box">
+            <img src="imgs/assets/icons/html.svg" alt="HTML5" />
+            <h3>HTML5</h3>
+            <p>
+              The latest evolution of the standard that defines HTML, providing improved elements for modern web development.
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/css.svg" alt="CSS3" />
+            <h3>CSS3</h3>
+            <p>
+              The latest standard for cascading style sheets, offering advanced styling capabilities for modern web design.
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/js.svg" alt="JavaScript" />
+            <h3>JavaScript</h3>
+            <p>
+              The programming language of the web, enabling interactive and dynamic content on websites and applications.
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/react.svg" alt="React" />
+            <h3>React</h3>
+            <p>
+              A JavaScript library for building user interfaces, particularly single-page applications with reusable components.
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/node.svg" alt="Node.js" />
+            <h3>Node.js</h3>
+            <p>
+              A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing server-side execution of JavaScript code.
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/assets/icons/wordpress.svg" alt="WordPress" />
+            <h3>WordPress</h3>
+            <p>
+              The world's most popular content management system, powering over 40% of all websites on the internet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Technologies -->
+
+    <!-- Start Development Process -->
+    <div class="process-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            Our Development <strong class="blu"><u>Process</u></strong>
+          </h2>
+          <p>
+            We follow a structured approach to web development, ensuring quality at every step.
+          </p>
+        </div>
+
+        <div class="exper-content">
+          <div class="box">
+            <img src="imgs/assets/icons/planning.svg" alt="" />
+            <h3>1. Discovery & Planning</h3>
+            <p>We begin by understanding your business goals, target audience, and website requirements. This phase includes market research, competitor analysis, and defining the project scope.</p>
+            <a href="Request quotation form.html" class="u-link">Start Here</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/graphic.png" alt="" />
+            <h3>2. Wireframing & Design</h3>
+            <p>Our designers create wireframes and visual designs to establish the website's structure and appearance. We focus on creating intuitive, engaging designs that align with your brand.</p>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/Web-development.svg" alt="" />
+            <h3>3. Development</h3>
+            <p>Our development team brings the designs to life, writing clean, efficient code. We use agile methodology to ensure flexibility and regular updates throughout the development process.</p>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/testing.svg" alt="" />
+            <h3>4. Testing & QA</h3>
+            <p>Rigorous testing across multiple browsers and devices ensures your website is bug-free and performs optimally. We test for functionality, usability, performance, and security.</p>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/deployment.svg" alt="" />
+            <h3>5. Deployment</h3>
+            <p>We handle the website deployment process, ensuring a smooth transition to your live server with minimal downtime.</p>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/support.svg" alt="" />
+            <h3>6. Post-Launch Support</h3>
+            <p>Our relationship continues after launch with ongoing maintenance, updates, and support to keep your website running smoothly and adapting to changing business needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Development Process -->
+
+    <!-- Start Case Studies -->
+    <div class="case-studies">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            Our Success <strong class="blu"><u>Stories</u></strong>
+          </h2>
+          <p>
+            Explore some of our successful web development projects.
+          </p>
+        </div>
+
+        <div class="user-content">
+          <div class="box">
+            <img src="imgs/assets/icons/ecommerce.svg" alt="E-commerce Website Redesign" />
+            <h3>E-commerce Website Redesign</h3>
+            <p>Redesigned and rebuilt an e-commerce website for a fashion retailer, resulting in a 60% increase in conversion rate and 35% reduction in cart abandonment.</p>
+            <a href="#" class="u-link">View Case Study</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/crm.svg" alt="Custom CRM System" />
+            <h3>Custom CRM System</h3>
+            <p>Developed a custom CRM system for a real estate company, streamlining their operations and increasing agent productivity by 40%.</p>
+            <a href="#" class="u-link">View Case Study</a>
+          </div>
+
+          <div class="box">
+            <img src="imgs/assets/icons/corporate.svg" alt="Corporate Website & Portal" />
+            <h3>Corporate Website & Portal</h3>
+            <p>Created a modern corporate website with an integrated customer portal for a financial services firm, enhancing their digital presence and customer service capabilities.</p>
+            <a href="#" class="u-link">View Case Study</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Case Studies -->
+
+    <!-- Start Articles Section -->
+    <div class="services" id="service">
+      <div class="container">
+        <div class="box">
+          <h3>Online Stores</h3>
+          <p>
+            We offer comprehensive services for creating, designing, and
+            maintaining online stores that resonate with your brand and
+            captivate your customers.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Multi-Vendor Platform</h3>
+          <p>
+            Empower businesses with the ability to host multiple vendors on a
+            single platform designed to facilitate seamless operations, ensure
+            vendor satisfaction, and attract a wide range of products.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Delivery System</h3>
+          <p>
+            Our delivery system streamlines the process, from order management
+            to last-mile delivery, ensuring a smooth and reliable experience for
+            your customers.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Payment Solutions</h3>
+          <p>
+            A seamless payment experience is vital for your e-commerce success.
+            Our payment solutions microservice ensures secure, convenient
+            transactions.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Inventory Management</h3>
+          <p>
+            Our Inventory Management ensures real-time tracking, automated
+            replenishment, and supplier integration, guaranteeing stock
+            efficiency and customer satisfaction.
+          </p>
+        </div>
+        <div class="box">
+          <h3>CRM</h3>
+          <p>
+            Building strong relationships with your customers is key to
+            long-term success. Our CRM focuses on enhancing customer
+            interactions.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Analytics & Reporting</h3>
+          <p>
+            Data-driven decisions drive growth. Our Analytics and Reporting is
+            your key to unlocking business potential.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Mobile Commerce</h3>
+          <p>
+            Our mobile commerce integration ensures a seamless experience. We
+            focus on mobile app development and responsive design for
+            user-friendly on-the-go shopping.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Articles Section -->
+
+    <!-- Start FAQ Section -->
+    <div class="faq-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            Frequently Asked <strong class="blu"><u>Questions</u></strong>
+          </h2>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item">
+            <h3>How long does it take to build a website?</h3>
+            <p>The timeline varies depending on the complexity of the website. A simple informational website may take 2-4 weeks, while a complex e-commerce site or web application could take 2-3 months or more. We'll provide a detailed timeline during the planning phase.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>How much does a website cost?</h3>
+            <p>Website costs vary based on features, complexity, design requirements, and functionality. We provide transparent pricing based on your specific needs. Contact us for a detailed quote.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Will my website be mobile-friendly?</h3>
+            <p>Absolutely. All our websites are built with responsive design principles, ensuring they look and function perfectly on all devices, from desktops to smartphones.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Do you provide website maintenance services?</h3>
+            <p>Yes, we offer comprehensive website maintenance and support services to ensure your site remains up-to-date, secure, and performing optimally.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Can you help with SEO for my website?</h3>
+            <p>Yes, we implement SEO best practices during development and can provide ongoing SEO services to improve your website's visibility in search engines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End FAQ Section -->
+
+    <!-- Start Form -->
+    <div class="form-sec">
+      <div class="container">
+        <div class="form-title">
+          <h3>
+            Ready to Start Your Web
+            <strong class="blu"><u>Project?</u></strong>
+          </h3>
+        </div>
+        <div class="form-container">
+          <div class="form-left">
+            <input type="text" id="name" placeholder="Fullname" />
+            <input type="email" id="email" placeholder="Email adress" />
+            <input type="tel" id="mobile" placeholder="Phone number" />
+          </div>
+          <div class="form-right">
+            <textarea id="message" placeholder="Tell us about your project..."></textarea>
+            <button type="submit" class="btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Form -->
+
+    <!-- Start Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="left-footer">
+          <h3 class="title">XOCODEX</h3>
+          <p>© All copyrights reserved to xocodex.com © 2023</p>
+        </div>
+        <div class="right-footer">
+          <ul class="links">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Products</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/instagram.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/linkedin.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="imgs/assets/icons/social/tiktok.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
